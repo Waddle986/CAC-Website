@@ -1,0 +1,19 @@
+@font-face {
+    font-family: brew;
+    src: url("Brewed Coffee.otf");
+}
+
+body{
+
+    background-color: rgb(197, 219, 238);
+}
+
+.title{
+    color:white;
+    font-size: 70px;
+    font-family: brew;
+    text-shadow: 3px 3px black;
+    text-align: center;
+    background: rgb(32, 74, 44);
+    padding: 10px;
+}
