@@ -5,15 +5,39 @@
 
 body{
 
-    background-color: rgb(197, 219, 238);
+    background-color: rgb(179, 206, 231);
 }
 
 .title{
     color:white;
-    font-size: 70px;
+    font-size: 40px;
     font-family: brew;
     text-shadow: 3px 3px black;
     text-align: center;
     background: rgb(32, 74, 44);
-    padding: 10px;
+    padding: 5px;
+}
+
+.navbar{
+    background-color: rgb(66, 49, 49);
+    overflow: hidden;
+    border-width: 10px;
+    border-color: white;
+}
+
+.navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 17px 19px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.description{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: brew;
+    text-shadow: 3px 3px rgb(32, 74, 44);
 }
